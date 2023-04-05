@@ -1,26 +1,32 @@
 {
-  "name": "template",
+  "name": "catalog",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://anton-sosonskyi.github.io/",
+  "homepage": "https://anton-sosonskyi.github.io/catalog/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
+    "classnames": "^2.3.2",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "sass": "^1.58.3",
+    "typescript": "^4.9.3",
     "vite": "^4.1.0"
   }
 }
