@@ -1,0 +1,14 @@
+@import "./vars";
+@import "./fonts";
+@import "./extends";
+@import "./mixins";
+@import "./reset";
+@import "./nav";
+@import "./container";
+@import "./icon";
+@import "./page";
+
+html {
+  font-family: "Mont", sans-serif;
+  scroll-behavior: smooth;
+}
